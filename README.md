@@ -15,18 +15,18 @@ In your application, import the FakerKH class and use its methods to generate fa
 ```js
 import FakerKH from 'faker-kh';
 
-console.log('Random Address:', FakerKH.address());
-console.log('Random City:', FakerKH.city());
-console.log('Random First Name:', FakerKH.firstName());
-console.log('Random Last Name:', FakerKH.lastName());
-console.log('Random Month:', FakerKH.month());
-console.log('Random Object:', FakerKH.object());
-console.log('Random Quote:', FakerKH.quote());
-console.log('Random Sentence:', FakerKH.sentence());
-console.log('Random Subject:', FakerKH.subject());
-console.log('Random Telephone Number:', FakerKH.tel());
-console.log('Random Title:', FakerKH.title());
-console.log('Random Verb:', FakerKH.verb());
+console.log('Random Address:', FakerKH.address()); // ផ្លូវបាសាក់, ព្រៃវែង, កម្ពុជា
+console.log('Random City:', FakerKH.city()); // ក្រុងប៉ៃលិន
+console.log('Random First Name:', FakerKH.firstName()); // ណារុង
+console.log('Random Last Name:', FakerKH.lastName()); // សន
+console.log('Random Month:', FakerKH.month()); // តុលា
+console.log('Random Object:', FakerKH.object());​ // សាលារៀន
+console.log('Random Quote:', FakerKH.quote()); // ទឹកឡើងត្រីស៊ីស្រមោច ទឹកហោចស្រមោចស៊ីត្រី
+console.log('Random Sentence:', FakerKH.sentence()); // ការចាត់ចែងគ្រប់វត្តមានត្រូវបានធ្វើដើម្បីទុកជាបទពិសោធន៍។
+console.log('Random Subject:', FakerKH.subject()); // គាត់
+console.log('Random Telephone Number:', FakerKH.tel()); // ០៩១ ២៣៤ ៥៦៧៨
+console.log('Random Title:', FakerKH.title()); // លោកស្រី
+console.log('Random Verb:', FakerKH.verb()); // លេង
 ```
 
 ## Methods
@@ -43,6 +43,7 @@ console.log('Random Verb:', FakerKH.verb());
 - tel(): Generate a random Khmer telephone number.
 - title(): Generate a random Khmer title or honorific.
 - verb(): Generate a random Khmer verb or action word.
+- More to come :)
 
 ## License
 
