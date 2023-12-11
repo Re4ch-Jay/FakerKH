@@ -13,3 +13,5 @@ console.log('Random Subject:', FakerKH.subject());
 console.log('Random Telephone Number:', FakerKH.tel());
 console.log('Random Title:', FakerKH.title());
 console.log('Random Verb:', FakerKH.verb());
+
+module.exports = FakerKH;
