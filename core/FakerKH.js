@@ -1,19 +1,20 @@
 
+const addresses = require("../faker/addresses")
+const cities = require("../faker/cities")
+const days = require("../faker/days")
+const firstname = require("../faker/firstname")
+const lastname = require("../faker/lastname")
+const months = require("../faker/months")
+const objects = require("../faker/objects")
+const quotes = require("../faker/quotes")
+const sentences = require("../faker/sentences")
+const subjects = require("../faker/subjects")
+const tels = require("../faker/tels")
+const titles = require("../faker/titles")
 
 module.exports = FakerKH = (function () {
     // Private properties
-    const addresses = require("../faker/addresses")
-    const cities = require("../faker/cities")
-    const days = require("../faker/days")
-    const firstname = require("../faker/firstname")
-    const lastname = require("../faker/lastname")
-    const months = require("../faker/months")
-    const objects = require("../faker/objects")
-    const quotes = require("../faker/quotes")
-    const sentences = require("../faker/sentences")
-    const subjects = require("../faker/subjects")
-    const tels = require("../faker/tels")
-    const titles = require("../faker/titles")
+   
     const verbs = require("../faker/verbs")
 
     // Private method
