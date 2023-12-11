@@ -1,5 +1,5 @@
 
-module.exports = objects = [
+const objects = [
   "សាលារៀន",
   "មន្ទីរពេទ្រ",
   "ផ្លែឈើ",
@@ -17,3 +17,4 @@ module.exports = objects = [
   "សៀវភៅ"
 ]
   
+module.exports = objects;

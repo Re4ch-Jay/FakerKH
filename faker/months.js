@@ -1,5 +1,5 @@
 
-    module.exports = months = [
+   const months = [
       "មករា",
       "កុម្ភៈ",
       "មីនា",
@@ -13,3 +13,5 @@
       "វិច្ឆិកា",
       "ធ្នូ"
     ]
+
+    module.exports = months;

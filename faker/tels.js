@@ -1,5 +1,5 @@
 
-    module.exports = tels = [
+    const tels = [
       "០៩៩ ១២៣ ៤៥៦៧",
       "០៩៨ ២៣៤ ៥៦៧៨",
       "០៩៧ ៣៤៥ ៦៧៨៩",
@@ -10,4 +10,4 @@
       "០៩១ ២៣៤ ៥៦៧៨"
     ]
 
-  
+    module.exports = tels;

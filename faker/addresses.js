@@ -1,5 +1,4 @@
-
-module.exports =  addresses = [
+const addresses = [
       {
         "street": "ផ្លូវលេងទំនើប",
         "city": "ភ្នំពេញ",
@@ -134,3 +133,5 @@ module.exports =  addresses = [
         "country": "កម្ពុជា"
       }
     ]  
+
+module.exports = addresses;

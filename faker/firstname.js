@@ -1,5 +1,5 @@
 
-    module.exports = firstnames = [
+    const firstnames = [
       "បទុម",
       "ដារា",
       "ឡេង",
@@ -33,4 +33,4 @@
       "សីហា"
     ]
 
-  
+    module.exports = firstnames;

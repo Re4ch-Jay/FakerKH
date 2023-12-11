@@ -1,5 +1,5 @@
 
-module.exports = verbs = [
+const verbs = [
   "ដើរលេង",
   "ទៅ",
   "សរសេរ",
@@ -10,3 +10,4 @@ module.exports = verbs = [
   "លេង"
 ]
   
+module.exports = verbs;

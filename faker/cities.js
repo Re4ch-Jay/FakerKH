@@ -1,5 +1,5 @@
 
-module.exports = cities = [
+const cities = [
   {
     "provinceKh": "ខេត្តបាត់ដំបង",
     "provinceEn": "Battambang Province",
@@ -194,4 +194,4 @@ module.exports = cities = [
   }
 ]
 
-  
+module.exports = cities;

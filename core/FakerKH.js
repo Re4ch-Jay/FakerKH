@@ -1,21 +1,21 @@
 
-const addresses = require("../faker/addresses")
-const cities = require("../faker/cities")
-const days = require("../faker/days")
-const firstname = require("../faker/firstname")
-const lastname = require("../faker/lastname")
-const months = require("../faker/months")
-const objects = require("../faker/objects")
-const quotes = require("../faker/quotes")
-const sentences = require("../faker/sentences")
-const subjects = require("../faker/subjects")
-const tels = require("../faker/tels")
-const titles = require("../faker/titles")
+const addresses = require("../faker/addresses.js")
+const cities = require("../faker/cities.js")
+const days = require("../faker/days.js")
+const firstname = require("../faker/firstname.js")
+const lastname = require("../faker/lastname.js")
+const months = require("../faker/months.js")
+const objects = require("../faker/objects.js")
+const quotes = require("../faker/quotes.js")
+const sentences = require("../faker/sentences.js")
+const subjects = require("../faker/subjects.js")
+const tels = require("../faker/tels.js")
+const titles = require("../faker/titles.js")
+const verbs = require("../faker/verbs.js")
 
-module.exports = FakerKH = (function () {
+const FakerKH = (function () {
     // Private properties
    
-    const verbs = require("../faker/verbs")
 
     // Private method
     function getRandomElement(arr) {
@@ -25,7 +25,7 @@ module.exports = FakerKH = (function () {
     // Public methods
     return {
         address: function () {
-            return `St. ${getRandomElement(addresses).street}, ${getRandomElement(addresses).city} City, ${getRandomElement(addresses).country}`;
+            return `${getRandomElement(addresses).street}, ${getRandomElement(addresses).city}, ${getRandomElement(addresses).country}`;
         },
         city: function () {
             return getRandomElement(cities).municipalityKh;
@@ -66,3 +66,5 @@ module.exports = FakerKH = (function () {
     };
 })();
 
+
+module.exports = FakerKH;

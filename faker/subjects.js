@@ -1,5 +1,5 @@
 
-module.exports = subjects = [
+const subjects = [
       "បទុម",
       "ដារា",
       "ឡេង",
@@ -32,4 +32,5 @@ module.exports = subjects = [
       "ខ្ញុំ",
       "គាត់"
     ]
-  
+
+    module.exports = subjects;

@@ -1,5 +1,5 @@
 
-    module.exports = titles = [
+    const titles = [
         "លោកស្រី",
         "លោកប្រុស",
         "លោក",
@@ -10,3 +10,5 @@
         "ព្រះករុណា",
         "ករុណា"
     ]
+
+    module.exports = titles;

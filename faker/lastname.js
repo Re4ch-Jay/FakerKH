@@ -1,5 +1,5 @@
 
-module.exports = lastnames = [
+const lastnames = [
       "ឱម",
       "ឱក",
       "ឯក",
@@ -35,5 +35,5 @@ module.exports = lastnames = [
       "ដុស",
       "សោន"
     ]
-
+    module.exports = lastnames;
   

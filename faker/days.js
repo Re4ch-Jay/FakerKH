@@ -1,5 +1,5 @@
 
-module.exports = days = [
+const days = [
       "ច័ន្ទ",
       "អង្គារ",
       "ពុធ",
@@ -8,4 +8,4 @@ module.exports = days = [
       "សៅរ៏",
       "អាទិត្យ"
     ]
-  
+module.exports = days;  
