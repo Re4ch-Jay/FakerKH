@@ -39,10 +39,13 @@ console.log('Random Verb:', FakerKH.verb()); // លេង
 - object(): Generate a random Khmer object or item.
 - quote(): Generate a random Khmer quote.
 - sentence(): Generate a random Khmer sentence.
-- subject(): Generate a random Khmer subject or topic.
+- subject(): Generate a random Khmer subject.
 - tel(): Generate a random Khmer telephone number.
-- title(): Generate a random Khmer title or honorific.
+- title(): Generate a random Khmer title - honorific.
 - verb(): Generate a random Khmer verb or action word.
+- paragraph(sentenceCount: num): Generate a random Khmer paragraph.
+- noun(): Generate a random Khmer noun.
+- fullName(): Generate a random Khmer Full Name.
 - More to come :)
 
 ## License

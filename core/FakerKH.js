@@ -12,6 +12,7 @@ const subjects = require("../faker/subjects.js")
 const tels = require("../faker/tels.js")
 const titles = require("../faker/titles.js")
 const verbs = require("../faker/verbs.js")
+const nouns = require("../faker/nouns.js")
 
 const FakerKH = (function () {
     // Private properties
@@ -63,6 +64,22 @@ const FakerKH = (function () {
         verb: function () {
             return getRandomElement(verbs);
         },
+        paragraph: function (sentenceCount = 3) {
+            let paragraph = "";
+            for (let i = 0; i < sentenceCount; i++) {
+                paragraph += getRandomElement(sentences);
+                if (i < sentenceCount - 1) {
+                    paragraph += " ";  // Add space between sentences
+                }
+            }
+            return paragraph;
+        },
+        noun: function () {
+            return getRandomElement(nouns);
+        },
+        fullName: function () {
+            return getRandomElement(firstname) + " " + getRandomElement(lastname);
+        }
     };
 })();
 

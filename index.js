@@ -13,5 +13,8 @@ console.log('Random Subject:', FakerKH.subject());
 console.log('Random Telephone Number:', FakerKH.tel());
 console.log('Random Title:', FakerKH.title());
 console.log('Random Verb:', FakerKH.verb());
+console.log('Random Paragraph:', FakerKH.paragraph());
+console.log('Random Noun:', FakerKH.noun());
+console.log('Random Full Name:', FakerKH.fullName());
 
 module.exports = FakerKH;
