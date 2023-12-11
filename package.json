@@ -6,6 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Re4ch-Jay/FakerKH.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Re4ch-Jay/FakerKH/issues"
+  },
+  "homepage": "https://github.com/Re4ch-Jay/FakerKH.git#FakerKH",
+  "keywords": [
+    "library",
+    "khmer",
+    "faker",
+    "generator"
+  ],
+  "author": "Phat Panhareach",
+  "license": "MIT"
 }
