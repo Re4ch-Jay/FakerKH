@@ -1,0 +1,11 @@
+{
+  "name": "faker-kh",
+  "version": "1.0.0",
+  "description": "JavaScript library for Khmer Random Word",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
