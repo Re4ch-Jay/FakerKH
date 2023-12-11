@@ -46,4 +46,4 @@ console.log('Random Verb:', FakerKH.verb());
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/Re4ch-Jay/FakerKH/blob/main/LICENSE).
