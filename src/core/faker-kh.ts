@@ -1,4 +1,5 @@
 import { addresses } from '../constants/addresses';
+import { animals } from '../constants/animals';
 import { cities } from '../constants/cities';
 import { days } from '../constants/days';
 import { firstnames } from '../constants/firstname';
@@ -12,6 +13,7 @@ import { subjects } from '../constants/subjects';
 import { tels } from '../constants/tels';
 import { titles } from '../constants/titles';
 import { verbs } from '../constants/verbs';
+import { languages } from '../constants/languages';
 import { getRandomElement } from '../lib/utils';
 
 /**
@@ -26,6 +28,19 @@ import { getRandomElement } from '../lib/utils';
 export function address(): string {
   const randomAddress = getRandomElement(addresses);
   return `${randomAddress.street}, ${randomAddress.city}, ${randomAddress.country}`;
+}
+
+/**
+ * Generates a random animal like:
+ * - `ខ្លា, មាន់​`
+ *
+ * ..example
+ * animal() // មាន់
+ * // or
+ * fakerKh.animal() // ខ្លា
+ */
+export function animal(): string {
+  return getRandomElement(animals);
 }
 
 /**
@@ -212,4 +227,16 @@ export function noun(): string {
  */
 export function fullName(): string {
   return `${firstName()} ${lastName()}`;
+}
+
+/**
+ * Generates a random language string.
+ * - `បារាំង`
+ * ..example
+ * language() // បារាំង
+ * // or
+ * fakerKh.language() // បារាំង
+ */
+export function language(): string {
+  return getRandomElement(languages);
 }

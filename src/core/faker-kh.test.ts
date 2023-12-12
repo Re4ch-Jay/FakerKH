@@ -1,6 +1,7 @@
 import { describe, expect } from 'vitest';
 import {
   address,
+  animal,
   city,
   firstName,
   lastName,
@@ -16,6 +17,7 @@ import {
   day,
   tel,
   title,
+  language,
 } from './faker-kh';
 import { titles } from '../constants/titles';
 import { cities } from '../constants/cities';
@@ -29,6 +31,8 @@ import { sentences } from '../constants/sentences';
 import { subjects } from '../constants/subjects';
 import { verbs } from '../constants/verbs';
 import { days } from '../constants/days';
+import { animals } from '../constants/animals';
+import { languages } from '../constants/languages';
 
 describe(address, it => {
   it('returns a random address', () => {
@@ -37,6 +41,18 @@ describe(address, it => {
     expect(street).toBeTruthy();
     expect(city).toBeTruthy();
     expect(country).toBeTruthy();
+  });
+});
+
+describe(animal, it => {
+  it('returns a random animal', () => {
+    const randomAnimal = animal();
+    expect(randomAnimal).toBeTruthy();
+  });
+
+  it('city should be in animal constant', () => {
+    const randomAnimal = animal();
+    expect(animals.flatMap(animal => animal)).toContain(randomAnimal);
   });
 });
 
@@ -220,5 +236,17 @@ describe(title, it => {
   it('returns a random title from the titles array', () => {
     const randomTitle = title();
     expect(titles).toContain(randomTitle);
+  });
+});
+
+describe(language, it => {
+  it('returns a random title', () => {
+    const randomLanguage = title();
+    expect(randomLanguage).toBeTruthy();
+  });
+
+  it('returns a random language from the languages array', () => {
+    const randomLanguage = language();
+    expect(languages).toContain(randomLanguage);
   });
 });

@@ -61,6 +61,8 @@ console.log('Random Last Name:', lastName()); // សន
 - `paragraph(sentenceCount?: number): string` Generate a random Khmer paragraph. Default sentence count is 3.
 - `noun(): string` Generate a random Khmer noun.
 - `fullName(): string` Generate a random Khmer Full Name.
+- `animal(): string` Generate a random Khmer animal.
+- `language(): string` Generate a random language.
 - More to come :)
 
 ## License
