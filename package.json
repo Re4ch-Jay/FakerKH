@@ -2,9 +2,16 @@
   "name": "faker-kh",
   "version": "1.0.8",
   "description": "JavaScript library for Khmer Random Word",
-  "main": "index.js",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:run": "vitest --run",
+    "test:watch": "vitest --watch",
+    "build": "tsup ./src/index.ts --format cjs,esm --dts"
   },
   "repository": {
     "type": "git",
@@ -21,5 +28,10 @@
     "generator"
   ],
   "author": "Phat Panhareach",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  }
 }
