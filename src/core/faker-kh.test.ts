@@ -17,18 +17,18 @@ import {
   tel,
   title,
 } from './faker-kh';
-import { titles } from '@/constants/titles';
-import { cities } from '@/constants/cities';
-import { firstnames } from '@/constants/firstname';
-import { lastnames } from '@/constants/lastname';
-import { months } from '@/constants/months';
-import { nouns } from '@/constants/nouns';
-import { objects } from '@/constants/objects';
-import { quotes } from '@/constants/quotes';
-import { sentences } from '@/constants/sentences';
-import { subjects } from '@/constants/subjects';
-import { verbs } from '@/constants/verbs';
-import { days } from '@/constants/days';
+import { titles } from '../constants/titles';
+import { cities } from '../constants/cities';
+import { firstnames } from '../constants/firstname';
+import { lastnames } from '../constants/lastname';
+import { months } from '../constants/months';
+import { nouns } from '../constants/nouns';
+import { objects } from '../constants/objects';
+import { quotes } from '../constants/quotes';
+import { sentences } from '../constants/sentences';
+import { subjects } from '../constants/subjects';
+import { verbs } from '../constants/verbs';
+import { days } from '../constants/days';
 
 describe(address, it => {
   it('returns a random address', () => {

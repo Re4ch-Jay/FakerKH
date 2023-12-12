@@ -1,6 +1,6 @@
 {
   "name": "faker-kh",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "JavaScript library for Khmer Random Word",
   "files": [
     "dist/*"

@@ -1,24 +1,24 @@
-import { addresses } from '@/constants/addresses';
-import { cities } from '@/constants/cities';
-import { days } from '@/constants/days';
-import { firstnames } from '@/constants/firstname';
-import { lastnames } from '@/constants/lastname';
-import { months } from '@/constants/months';
-import { nouns } from '@/constants/nouns';
-import { objects } from '@/constants/objects';
-import { quotes } from '@/constants/quotes';
-import { sentences } from '@/constants/sentences';
-import { subjects } from '@/constants/subjects';
-import { tels } from '@/constants/tels';
-import { titles } from '@/constants/titles';
-import { verbs } from '@/constants/verbs';
-import { getRandomElement } from '@/lib/utils';
+import { addresses } from '../constants/addresses';
+import { cities } from '../constants/cities';
+import { days } from '../constants/days';
+import { firstnames } from '../constants/firstname';
+import { lastnames } from '../constants/lastname';
+import { months } from '../constants/months';
+import { nouns } from '../constants/nouns';
+import { objects } from '../constants/objects';
+import { quotes } from '../constants/quotes';
+import { sentences } from '../constants/sentences';
+import { subjects } from '../constants/subjects';
+import { tels } from '../constants/tels';
+import { titles } from '../constants/titles';
+import { verbs } from '../constants/verbs';
+import { getRandomElement } from '../lib/utils';
 
 /**
  * Generates a random address like:
  * - `ផ្លូវបាសាក់, ព្រៃវែង, កម្ពុជា`
  *
- * @example
+ * ..example
  * address() // ផ្លូវសេងហៃ, តាខ្មៅ, កម្ពុជា
  * // or
  * fakerKh.address() // ផ្លូវសារ៉េត, បាត់ដំបង, កម្ពុជា
@@ -31,7 +31,7 @@ export function address(): string {
 /**
  * Generates a random city string like:
  * - `ក្រុងប៉ៃលិន`
- * @example
+ * ..example
  * city() // បាត់ដំបង
  * // or
  * fakerKh.city() // កោះកុង
@@ -43,7 +43,7 @@ export function city(): string {
 /**
  * Generates a random day like this
  * - `ថ្ងៃពុធ`
- * @example
+ * ..example
  * day() // ថ្ងៃច័ន្ទ
  * // or
  * fakerKh.day() // ថ្ងៃអាទិត្យ
@@ -55,7 +55,7 @@ export function day(): string {
 /**
  * Generates a random first name
  * - `ណារុង`
- * @example
+ * ..example
  * firstName() // បុប្ផា
  * // or
  * fakerKh.firstName() // ផល្លា
@@ -67,7 +67,7 @@ export function firstName(): string {
 /**
  * Generates a random last name string.
  * - `អិម`
- * @example
+ * ..example
  * lastName() // សុខ
  * // or
  * fakerKh.lastName() // លឹម
@@ -79,7 +79,7 @@ export function lastName(): string {
 /**
  * Generates a random month string.
  * - `ខែមករា`
- * @example
+ * ..example
  * month() // ខែមិថុនា
  * // or
  * fakerKh.month() // ខែមីនា
@@ -91,7 +91,7 @@ export function month(): string {
 /**
  * Generates a random object string.
  * - `សៀវភៅ`
- * @example
+ * ..example
  * object() // មន្ទីរពេទ្រ
  * // or
  * fakerKh.object() // ព្រៃភ្នំ
@@ -103,7 +103,7 @@ export function object(): string {
 /**
  * Generates a random quote string.
  * - `ភ្នំមួយមិនអាចមានខ្លាពីរ`
- * @example
+ * ..example
  * quote() // ចេះមកពីរាន មានមកពីរក
  * // or
  * fakerKh.quote() // កុំទុកចិត្តមេឃ កុំទុកចិត្តផ្កាយ
@@ -115,7 +115,7 @@ export function quote(): string {
 /**
  * Generates a random sentence string.
  * - `សិទ្ធិប្រើប្រាស់សេរីភាពដើម្បីសម្រួលដល់ការអនុវត្តន៍។`
- * @example
+ * ..example
  * sentence() // គម្រូសារមុននឹងនៅប្រទេសកម្ពុជា។
  * // or
  * fakerKh.sentence() // តាមរយៈកម្មវិធីអក្សរកម្ពុជានៅពេលវេលាដែលនិយាយភាសាអង់គ្លេសរៀនជាប់ដៃ។
@@ -127,7 +127,7 @@ export function sentence(): string {
 /**
  * Generates a random subject string.
  * - `ខ្ញុំ`
- * @example
+ * ..example
  * subject() // ស្រី
  * // or
  * fakerKh.subject() // បទុម
@@ -139,7 +139,7 @@ export function subject(): string {
 /**
  * Generates a random telephone number string.
  * - `០៩៩ ១២៣ ៤៥៦៧`
- * @example
+ * ..example
  * tel() // ០៩៤ ៤៥៦ ៦៧៨៩
  * // or
  * fakerKh.tel() // ០៩១ ២៣៤ ៥៦៧៨
@@ -151,7 +151,7 @@ export function tel(): string {
 /**
  * Generates a random title string.
  * - `ព្រះករុណា`
- * @example
+ * ..example
  * title() // ឯកឧត្ដម
  * // or
  * fakerKh.title() // លោកស្រី
@@ -163,7 +163,7 @@ export function title(): string {
 /**
  * Generates a random verb string.
  * - `ទៅ`
- * @example
+ * ..example
  * verb() // សរសេរ
  * // or
  * fakerKh.verb() // ស្វែងរក
@@ -175,9 +175,9 @@ export function verb(): string {
 /**
  * Generates a random paragraph string composed of multiple sentences.
  * Accepts a number of sentences to generate.
- * @default 3 // sentences
+ * ..default 3 // sentences
  *
- * @example
+ * ..example
  * paragraph() // សូមអរគុណសម្រាប់ការអនុវត្តន៍។ ខ្ញុំសង្ឃឹមថាសិទ្ធិប្រើប្រាស់សេរីភាពដើម្បីសម្រួលដល់ការអនុវត្តន៍។ គម្រូសារមុននឹងនៅប្រទេសកម្ពុជា។
  * // or
  * fakerKh.paragraph(2) // សូមអរគុណសម្រាប់ការអនុវត្តន៍។ ខ្ញុំសង្ឃឹមថាសិទ្ធិប្រើប្រាស់សេរីភាពដើម្បីសម្រួលដល់ការអនុវត្តន៍។
@@ -193,7 +193,7 @@ export function paragraph(sentenceCount: number = 3): string {
 /**
  * Generates a random noun string.
  * - `មនុស្ស`
- * @example
+ * ..example
  * noun() // ធម្មជាតិ
  * // or
  * fakerKh.noun() // កិច្ចការ
@@ -205,7 +205,7 @@ export function noun(): string {
 /**
  * Generates a random full name string.
  * - `សន ឯក`
- * @example
+ * ..example
  * fullName() // សារឿន សៀង
  * // or
  * fakerKh.fullName() // ផល្លា សួន
