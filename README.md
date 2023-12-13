@@ -1,5 +1,8 @@
 # FakerKH
 
+[![npm downloads](https://badgen.net/npm/dm/faker-kh)](https://www.npmjs.com/package/faker-kh)
+[![npm version](https://badgen.net/npm/v/faker-kh)](https://www.npmjs.com/package/faker-kh)
+
 FakerKH is a JavaScript library for generating fake Khmer data. Use this library to create random addresses, names, quotes, and more in Khmer language.
 
 ## Installation
@@ -8,7 +11,7 @@ FakerKH is a JavaScript library for generating fake Khmer data. Use this library
 npm install faker-kh
 # or
 yarn add faker-kh
-# or 
+# or    
 pnpm add faker-kh
 ```
 
